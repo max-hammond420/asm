@@ -5,7 +5,7 @@ x: .space 1
 y: .space 1
 x: .space 1
 
-.section .test
+.section .text
     .global main
 
 main:
