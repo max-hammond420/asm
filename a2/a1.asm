@@ -32,7 +32,7 @@ sub1:
   
 sub2: 
     ;... there are lines of code here with unknown operations. You can make up code as you wish
-    LDI R22, 1
+    LDI R22, 1; r22 = 1
     CP R21, R22 ; This compares recursion depth parameter (held in R21) to 1. If less than 1, it will exit recursive function. How do you get the recursion depth parameter into R21?
     BRLO end_recursion
     DEC R21 ; Decrement recursion depth parameter by 1.
